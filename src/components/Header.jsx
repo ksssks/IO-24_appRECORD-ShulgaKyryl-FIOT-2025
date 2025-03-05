@@ -40,7 +40,7 @@ const Header = () => {
                     <a
                         className="flex items-center gap-3 bg-white px-8 py-3 rounded-full text-sm font-semibold text-gray-800 shadow-lg hover:scale-105 transition duration-300"
                     >
-                        <Link to="/labs">перейти до робіт</Link>
+                        <Link to="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/labs">перейти до робіт</Link>
                     </a>
                 </div>
                 {/* Right side with SVG abstraction */}

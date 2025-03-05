@@ -16,7 +16,7 @@ import Lab8 from "./pages/Lab8.jsx";
 const MyComponent = () => {
     return (
         <Router>
-            <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+            <div className='px-4 sm:px-[2vw] md:px-[2vw] lg:px-[2vw]'>
                 <Navbar />
                 <Routes>
                     <Route path='/IO-24_appRECORD-ShulgaKyryl-FIOT-2025' element={<Main/>} />

@@ -3,7 +3,7 @@ import {assets} from "../../assets/assets.js";
 
 const Task13 = () => {
     return (
-        <div className="max-w-6xl mx-auto p-8">
+        <div className="max-w-6xl mx-auto p-4">
             <h1 className="text-3xl font-bold text-center mb-8">Cтруктура документа</h1>
             <section className="bg-white shadow-lg rounded-lg p-6 mb-8">
                 <h2 className="text-xl font-semibold mb-4">HTML-код таблиці</h2>

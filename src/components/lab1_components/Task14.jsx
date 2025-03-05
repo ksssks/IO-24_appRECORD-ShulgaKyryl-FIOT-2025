@@ -2,7 +2,7 @@ import React from 'react'
 
 const Task14 = () => {
     return (
-        <div className="max-w-6xl mx-auto p-8">
+        <div className="max-w-6xl mx-auto p-4">
             <h1 className="text-3xl font-bold text-center mb-8">Висновки</h1>
 
             <section className="bg-white shadow-lg rounded-lg p-6 mb-8">

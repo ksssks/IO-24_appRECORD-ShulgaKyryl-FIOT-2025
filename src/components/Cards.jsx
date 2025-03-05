@@ -32,7 +32,7 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "КАСКАДНІ ТАБЛИЦІ СТИЛІВ. СЕЛЕКТОРИ. ІДЕНТИФІКАТОРИ. СТИЛЬОВЕ ОФОРМЛЕННЯ ТЕКСТОВИХ ЕЛЕМЕНТІВ В HTML-ДОКУМЕНТАХ.",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab2"
         },
         {
@@ -103,7 +103,7 @@ const Cards = () => {
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                      style={{stroke: "white", fill: "none", strokeWidth: "0.5px"}}>
                     <g style={{transformOrigin: "50% 50%", animation: "rotateShapes 10s infinite linear"}}>
-                    <polygon points="50,5 61,35 95,35 68,57 78,90 50,72 22,90 32,57 5,35 39,35" stroke="white"/>
+                        <polygon points="50,5 61,35 95,35 68,57 78,90 50,72 22,90 32,57 5,35 39,35" stroke="white"/>
                         <circle cx="50" cy="50" r="15" stroke="white" opacity="0.7"/>
                         <path d="M50 5 Q55 50 50 95 Q45 50 50 5" stroke="white" fill="none"/>
                     </g>
