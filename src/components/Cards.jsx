@@ -60,7 +60,7 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА ЗАСОБАМИ CSS та FLEXBOX.",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab3"
         },
         {
@@ -77,7 +77,7 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "АДАПТИВНА ВЕРСТКА. МЕДІА-ЗАПИТИ. МЕТАТЕГ VIEWPORT. СТРАТЕГІЯ MOBILE FIRST.  ",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab4"
         },
         {
