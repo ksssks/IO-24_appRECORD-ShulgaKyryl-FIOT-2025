@@ -36,7 +36,7 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab2"
         },
         {
-            title: "lab 3",
+            title: "lab 3.1",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" fill="none" stroke="white"
@@ -64,7 +64,7 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab3"
         },
         {
-            title: "lab 4",
+            title: "lab 3.2",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab4"
         },
         {
-            title: "lab 5",
+            title: "lab 4",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
@@ -93,11 +93,11 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "ОБ'ЄКТ. МЕТОДИ ОБ'ЄКТА. МАСИВ ОБ'ЄКТІВ. ДЕСТРУКТУРИЗАЦІЯ ОБ'ЄКТІВ. CALLBACK. СТРІЛОЧНІ ФУНКЦІЇ. СТРІЛОЧНІ ФУНКЦІЇ ЯК КОЛБЕКИ. ПЕРЕБИРАЮЧІ МЕТОДИ МАСИВУ",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab5"
         },
         {
-            title: "lab 6",
+            title: "lab 5.1",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
@@ -109,11 +109,11 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ. THROTTLE. ",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab6"
         },
         {
-            title: "lab 7",
+            title: "lab 6",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab7"
         },
         {
-            title: "lab 8",
+            title: "lab 7",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"

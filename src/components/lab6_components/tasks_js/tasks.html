@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <title>lab51</title>
+</head>
+<body>
+<div>
+  <h1>lab 5.1</h1>
+    <h2>Завдання №2</h2>
+    <div class="container">
+        <input type="text" id="input1" placeholder="Введіть текст 1">
+        <input type="text" id="input2" placeholder="Введіть текст 2">
+        <button onclick="swapValues()">SWAP ME</button>
+    </div>
+    <h2>Завдання №4</h2>
+    <div id="square"></div>
+
+    <button onclick="resizeSquare(-15)">Зменшити</button>
+    <button onclick="resizeSquare(15)">Збільшити</button>
+    <h2>Завдання №6</h2>
+    <ul id="numberList">
+        <li>1</li>
+        <li>4</li>
+        <li>8</li>
+        <li>16</li>
+        <li>20</li>
+        <li>30</li>
+    </ul>
+    <button onclick="doubleValues()">Подвоїти</button>
+    <h2>Завдання №7</h2>
+    <ul id="categories">
+        <li class="item">
+            <h2>Animals</h2>
+            <ul>
+                <li>Cat</li>
+                <li>Hamster</li>
+                <li>Horse</li>
+                <li>Parrot</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Products</h2>
+            <ul>
+                <li>Bread</li>
+                <li>Prasley</li>
+                <li>Cheese</li>
+            </ul>
+        </li>
+        <li class="item">
+            <h2>Technologies</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Завдання №8</h2>
+    <form class="login-form">
+        <label>
+            Електронна пошта:
+            <input type="email" name="email" />
+        </label>
+        <label>
+            Пароль:
+            <input type="password" name="password" />
+        </label>
+        <button type="submit">Увійти</button>
+    </form>
+    <h2>Завдання №9</h2>
+    <div class="widget">
+        <p>Колір фону: <span class="color">-</span></p>
+        <button type="button" class="change-color">Змінити колір</button>
+    </div>
+    <h2>Завдання №10</h2>
+    <div id="controls">
+        <input type="number" min="1" max="100" step="1" />
+        <button type="button" data-create>Створити</button>
+        <button type="button" data-destroy>Видалити</button>
+    </div>
+
+    <div id="boxes"></div>
+
+</div>
+</body>
+<script src="tasks.js"></script>
+</html>

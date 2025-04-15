@@ -34,7 +34,7 @@ import class_sel_lab2 from './photo/lab2/class_sel_lab2.png'
 import identificator_lab2 from './photo/lab2/identificator_lab2.png'
 import identificator_lab2_photo from './photo/lab2/identificator_lab2_photo.png'
 
-// lab3
+// lab3.1
 import variant_lab3 from './photo/lab3/variant_lab3.png'
 import variant_2_lab3 from './photo/lab3/variant_2_lab3.png'
 import explanation from './photo/lab3/explanation.png'
@@ -53,11 +53,37 @@ import main_1 from './photo/lab3/main.png'
 import main_2 from './photo/lab3/main_2.png'
 import main_3 from './photo/lab3/main_3.png'
 import main_4 from './photo/lab3/main_4.png'
-// lab4
+// lab3.2
 import dekstop from './photo/lab4/dekstop.png'
 import tablet from './photo/lab4/tablet.png'
 import smartphone from './photo/lab4/smartphone.png'
 import smartphone_1 from './photo/lab4/smartphone_1.png'
+
+// lab4
+import img_lab4 from './photo/lab5/img.png'
+import img1_lab4 from './photo/lab5/img_1.png'
+import img2_lab4 from './photo/lab5/img_2.png'
+import img3_lab4 from './photo/lab5/img_3.png'
+import img4_lab4 from './photo/lab5/img_4.png'
+import img5_lab4 from './photo/lab5/img_5.png'
+import img6_lab4 from './photo/lab5/img_6.png'
+import img7_lab4 from './photo/lab5/img_7.png'
+import img8_lab4 from './photo/lab5/img_8.png'
+import img9_lab4 from './photo/lab5/img_9.png'
+import img10_lab4 from './photo/lab5/img_10.png'
+import img11_lab4 from './photo/lab5/img_11.png'
+import img12_lab4 from './photo/lab5/img_12.png'
+import img13_lab4 from './photo/lab5/img_13.png'
+// lab5.1
+import lab5_img from './photo/lab6/img.png'
+import lab5_img_1 from './photo/lab6/img_1.png'
+import lab5_img_2 from './photo/lab6/img_2.png'
+import lab5_img_3 from './photo/lab6/img_3.png'
+import lab5_img_4 from './photo/lab6/img_4.png'
+import lab5_img_5 from './photo/lab6/img_5.png'
+import lab5_img_6 from './photo/lab6/img_6.png'
+import lab5_img_7 from './photo/lab6/img_7.png'
+import lab5_img_8 from './photo/lab6/img_8.png'
 export const assets = {
     instagram,
     facebook,
@@ -107,5 +133,28 @@ export const assets = {
     smartphone,
     smartphone_1,
     tablet,
-    dekstop
+    dekstop,
+    img_lab4,
+    img1_lab4,
+    img2_lab4,
+    img3_lab4,
+    img4_lab4,
+    img5_lab4,
+    img6_lab4,
+    img7_lab4,
+    img8_lab4,
+    img9_lab4,
+    img10_lab4,
+    img11_lab4,
+    img12_lab4,
+    img13_lab4,
+    lab5_img,
+    lab5_img_1,
+    lab5_img_2,
+    lab5_img_3,
+    lab5_img_4,
+    lab5_img_5,
+    lab5_img_6,
+    lab5_img_7,
+    lab5_img_8,
 }
