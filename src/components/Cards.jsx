@@ -113,7 +113,7 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab6"
         },
         {
-            title: "lab 6",
+            title: "lab 5.2",
             author: "kyryl shulga",
             image: (
                 <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +125,7 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
+            description: "WEB-СХОВИЩЕ. WEB STORAGE API. МОДУЛЬНОСТЬ  КОДУ. СТВОРЕННЯ МОДАЛЬНОГО ВІКНА. ДЕЛЕГУВАННЯ ПОДІЙ.",
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab7"
         },
         {

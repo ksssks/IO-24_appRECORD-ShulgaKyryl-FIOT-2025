@@ -5,7 +5,7 @@ import Task63 from "../components/lab6_components/Task63.jsx";
 
 
 const tasks = [
-    {id: 1, title: "Тема мета ЛР №6 Місце розташування сайту, звіту", component: <Task61/>},
+    {id: 1, title: "Тема мета ЛР №5.1 Місце розташування сайту, звіту", component: <Task61/>},
     {id: 2, title: "Виконання", component: <Task62/>},
     {id: 3, title: "Висновки", component: <Task63/>},
 ];
@@ -16,7 +16,7 @@ const Lab6 = () => {
 
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center mt-8 mb-8">lab6</h1>
+            <h1 className="text-4xl font-bold text-center mt-8 mb-8">lab5.1</h1>
             <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
                 {/* Sidebar */}
                 <div

@@ -84,6 +84,11 @@ import lab5_img_5 from './photo/lab6/img_5.png'
 import lab5_img_6 from './photo/lab6/img_6.png'
 import lab5_img_7 from './photo/lab6/img_7.png'
 import lab5_img_8 from './photo/lab6/img_8.png'
+// lab5.2
+import lab52_img from './photo/lab7/img.png'
+import lab52_img_1 from './photo/lab7/img_1.png'
+import lab52_img_2 from './photo/lab7/img_2.png'
+import lab52_img_3 from './photo/lab7/img_3.png'
 export const assets = {
     instagram,
     facebook,
@@ -157,4 +162,8 @@ export const assets = {
     lab5_img_6,
     lab5_img_7,
     lab5_img_8,
+    lab52_img,
+    lab52_img_1,
+    lab52_img_2,
+    lab52_img_3
 }
