@@ -1,0 +1,205 @@
+@import 'izitoast/dist/css/iziToast.min.css';
+@import 'simplelightbox/dist/simple-lightbox.min.css';
+
+:root {
+    --primary-color: #3498db;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --card-background: #fff;
+    --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --border-radius: 12px;
+    --transition: all 0.3s ease;
+    --padding: 16px;
+    --max-width: 1200px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+form#search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+form#search-form input[type='text'] {
+    width: 280px;
+    max-width: 100%;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    outline: none;
+    transition: var(--transition);
+}
+
+form#search-form input[type='text']:focus {
+    box-shadow: 0 0 5px var(--primary-color);
+}
+
+form#search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+form#search-form button:hover {
+    background-color: #2980b9;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid var(--primary-color);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.gallery-item,
+.photo-card {
+    width: 100%;
+    height: 200px;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.gallery-item:hover,
+.photo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item a,
+.photo-card a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.gallery-item img,
+.photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.image-info,
+.photo-card .info {
+    padding: var(--padding);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    gap: 6px;
+    color: #555;
+    background-color: var(--card-background);
+    border-top: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.image-info span,
+.photo-card .info p {
+    display: inline-block;
+    margin-right: 8px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    form#search-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    form#search-form button {
+        width: 100%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        gap: 16px;
+    }
+
+    .image-info,
+    .photo-card .info {
+        flex-direction: column;
+        gap: 4px;
+        font-size: 13px;
+    }
+
+    .loader {
+        width: 50px;
+        height: 50px;
+    }
+
+    .gallery-item,
+    .photo-card {
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 16px;
+    }
+
+    .gallery-item img,
+    .photo-card img {
+        height: 100%;
+    }
+
+    .gallery-item,
+    .photo-card {
+        height: 180px;
+    }
+}

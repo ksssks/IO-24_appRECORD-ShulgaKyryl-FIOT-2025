@@ -89,6 +89,28 @@ import lab52_img from './photo/lab7/img.png'
 import lab52_img_1 from './photo/lab7/img_1.png'
 import lab52_img_2 from './photo/lab7/img_2.png'
 import lab52_img_3 from './photo/lab7/img_3.png'
+// lab6
+import lab6_img from './photo/lab8/img.png'
+import lab6_img_1 from './photo/lab8/img_1.png'
+import lab6_img_2 from './photo/lab8/img_2.png'
+import lab6_img_3 from './photo/lab8/img_3.png'
+// lab7
+import lab7_img from './photo/lab9/img.png'
+import lab7_img_1 from './photo/lab9/img_1.png'
+import lab7_img_2 from './photo/lab9/img_2.png'
+import lab7_img_3 from './photo/lab9/img_3.png'
+// lab8
+import lab8_img from './photo/lab10/img.png'
+import lab8_img_1 from './photo/lab10/img_1.png'
+import lab8_img_2 from './photo/lab10/img_2.png'
+import lab8_img_3 from './photo/lab10/img_3.png'
+// lab9
+import lab9_img from './photo/lab11/img.png'
+import lab9_img_1 from './photo/lab11/img_1.png'
+import lab9_img_2 from './photo/lab11/img_2.png'
+import lab9_img_3 from './photo/lab11/img_3.png'
+import lab9_img_4 from './photo/lab11/img_4.png'
+
 export const assets = {
     instagram,
     facebook,
@@ -165,5 +187,22 @@ export const assets = {
     lab52_img,
     lab52_img_1,
     lab52_img_2,
-    lab52_img_3
+    lab52_img_3,
+    lab6_img,
+    lab6_img_1,
+    lab6_img_2,
+    lab6_img_3,
+    lab7_img,
+    lab7_img_1,
+    lab7_img_2,
+    lab7_img_3,
+    lab8_img,
+    lab8_img_1,
+    lab8_img_2,
+    lab8_img_3,
+    lab9_img,
+    lab9_img_1,
+    lab9_img_2,
+    lab9_img_3,
+    lab9_img_4,
 }

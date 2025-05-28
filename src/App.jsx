@@ -12,6 +12,9 @@ import Lab5 from "./pages/Lab5.jsx";
 import Lab6 from "./pages/Lab6.jsx";
 import Lab7 from "./pages/Lab7.jsx";
 import Lab8 from "./pages/Lab8.jsx";
+import Lab9 from "./pages/Lab9.jsx";
+import Lab10 from "./pages/Lab10.jsx";
+import Lab11 from "./pages/Lab11.jsx";
 
 const MyComponent = () => {
     return (
@@ -29,6 +32,9 @@ const MyComponent = () => {
                     <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab6" element={<Lab6/>} />
                     <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab7" element={<Lab7/>} />
                     <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab8" element={<Lab8/>} />
+                    <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab9" element={<Lab9/>} />
+                    <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab10" element={<Lab10/>} />
+                    <Route path="/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab11" element={<Lab11/>} />
                 </Routes>
                 <Footer/>
             </div>

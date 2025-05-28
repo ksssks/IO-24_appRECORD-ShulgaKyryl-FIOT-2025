@@ -1,22 +1,23 @@
 import React, {useState} from 'react';
-import Task81 from "../components/lab8_components/Task81.jsx";
-import Task82 from "../components/lab8_components/Task82.jsx";
-import Task83 from "../components/lab8_components/Task83.jsx";
+
+import Task91 from "../components/lab9_components/Task91.jsx";
+import Task92 from "../components/lab9_components/Task92.jsx";
+import Task93 from "../components/lab9_components/Task93.jsx";
 
 
 const tasks = [
-    {id: 1, title: "Тема мета ЛР №6 Місце розташування сайту, звіту", component: <Task81/>},
-    {id: 2, title: "Виконання", component: <Task82/>},
-    {id: 3, title: "Висновки", component: <Task83/>},
+    {id: 1, title: "Тема мета ЛР №7 Місце розташування сайту, звіту", component: <Task91/>},
+    {id: 2, title: "Виконання", component: <Task92/>},
+    {id: 3, title: "Висновки", component: <Task93/>},
 ];
 
-const Lab8 = () => {
+const Lab9 = () => {
     const [activeTask, setActiveTask] = useState(1);
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     return (
         <div>
-            <h1 className="text-4xl font-bold text-center mt-8 mb-8">lab6</h1>
+            <h1 className="text-4xl font-bold text-center mt-8 mb-8">lab7</h1>
             <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
                 {/* Sidebar */}
                 <div
@@ -60,4 +61,4 @@ const Lab8 = () => {
     );
 };
 
-export default Lab8;
+export default Lab9;

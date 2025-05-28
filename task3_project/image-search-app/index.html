@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+
+  <!-- SimpleLightbox CSS -->
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css"
+  />
+
+  <!-- iziToast CSS (якщо ще не підключено) -->
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css"
+  />
+</head>
+<body>
+<form id="search-form">
+  <input type="text" name="query" placeholder="Search images..." />
+  <button type="submit">Search</button>
+</form>
+
+<div id="loader" class="loader hidden"></div>
+
+<ul class="gallery"></ul>
+
+<!-- SimpleLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.js"></script>
+
+<!-- iziToast JS (опціонально, якщо використовуєш через CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+
+<!-- Основний JS -->
+<script type="module" src="/src/js/index.js"></script>
+</body>
+</html>

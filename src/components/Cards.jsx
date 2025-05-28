@@ -129,6 +129,22 @@ const Cards = () => {
             path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab7"
         },
         {
+            title: "lab 6",
+            author: "kyryl shulga",
+            image: (
+                <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                     style={{stroke: "white", fill: "none", strokeWidth: "0.5px"}}>
+                    <g style={{transformOrigin: "50% 50%", animation: "rotateShapes 16s infinite linear"}}>
+                        <ellipse cx="50" cy="50" rx="40" ry="15" stroke="white"/>
+                        <polygon points="50,10 80,50 50,90 20,50" stroke="white"/>
+                        <path d="M10 50 C30 70 70 30 90 50" stroke="white" fill="none"/>
+                    </g>
+                </svg>
+            ),
+            description: "АСИНХРОННІСТЬ. ПРОМІСИ. HTTP-ЗАПИТИ. REST API. AJAX. КРОС-ДОМЕННІ ЗАПИТИ. ПАГІНАЦІЯ. CRUD ",
+            path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab8"
+        },
+        {
             title: "lab 7",
             author: "kyryl shulga",
             image: (
@@ -141,9 +157,41 @@ const Cards = () => {
                     </g>
                 </svg>
             ),
-            description: "soon",
-            path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab8"
-        }
+            description: "СТВОРЕННЯ ІНТЕРФЕЙСІВ WEB-ЗАСТОСУВАНЬ З ВИКОРИСТАННЯМ REACT",
+            path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab9"
+        },
+        {
+            title: "lab 8",
+            author: "kyryl shulga",
+            image: (
+                <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                     style={{stroke: "white", fill: "none", strokeWidth: "0.5px"}}>
+                    <g style={{transformOrigin: "50% 50%", animation: "rotateShapes 16s infinite linear"}}>
+                        <ellipse cx="50" cy="50" rx="40" ry="15" stroke="white"/>
+                        <polygon points="50,10 80,50 50,90 20,50" stroke="white"/>
+                        <path d="M10 50 C30 70 70 30 90 50" stroke="white" fill="none"/>
+                    </g>
+                </svg>
+            ),
+            description: "MONGODB ТА MONGOOSE. СХЕМИ ТА МЕТОДИ MONGOOSE. ДЕПЛОЙ НА HEROKU.",
+            path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab10"
+        },
+        {
+            title: "lab 9",
+            author: "kyryl shulga",
+            image: (
+                <svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                     style={{stroke: "white", fill: "none", strokeWidth: "0.5px"}}>
+                    <g style={{transformOrigin: "50% 50%", animation: "rotateShapes 16s infinite linear"}}>
+                        <ellipse cx="50" cy="50" rx="40" ry="15" stroke="white"/>
+                        <polygon points="50,10 80,50 50,90 20,50" stroke="white"/>
+                        <path d="M10 50 C30 70 70 30 90 50" stroke="white" fill="none"/>
+                    </g>
+                </svg>
+            ),
+            description: "АУТЕНТИФІКАЦІЯ. ТЕСТИ. МОДУЛЬНЕ ТЕСТУВАННЯ. ПОШТА. DOCKER. ВЕБСОКЕТИ.",
+            path: "/IO-24_appRECORD-ShulgaKyryl-FIOT-2025/lab11"
+        },
     ];
 
     return (
